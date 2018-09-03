@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'siliconangle:paginated-subscription',
+  name: 'bhargavi007:subscriptionWithPagination',
   summary: "Easily paginate a subscription that takes a limit parameter.",
   version: "0.0.1",
-  git: "https://github.com/siliconangle/paginated-subscription"
+  git: "https://github.com/bhargavi007/subscriptionWithPagination"
 });
 
 Package.onUse(function (api, where) {

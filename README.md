@@ -1,6 +1,12 @@
 # paginated_subscription
  This package adds pagination to Meteor's standard subscriptions. This is according to the latest version of meteor
 
+## Installation
+
+``` sh
+$ meteor add siliconangle:paginated-subscription
+```
+
 ## Usage
 
 This package makes available a single function `Meteor.subscribeWithPagination`. Like the built in `Meteor.subscribe`, it returns a handle, which should be used to keep track of the state of the subscription:

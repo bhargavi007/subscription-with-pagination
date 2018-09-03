@@ -76,3 +76,5 @@ Meteor.subscribeWithPagination = function (/*name, arguments, perPage */) {
   
   return handle;
 }
+
+export const subscribeWithPagination = 'Meteor.subscribeWithPagination';

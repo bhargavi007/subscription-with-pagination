@@ -8,6 +8,6 @@ Package.describe({
 
 Package.onUse(function (api, where) {
   api.versionsFrom("METEOR@0.9.0");
-  api.addFiles('paginated_subscription.js', 'client');
+  api.addFiles('paginated-subscription.js', 'client');
 });
 

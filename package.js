@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'bhargavi007:subscriptionWithPagination',
+  name: 'bhargavi007:subscription-with-pagination',
   summary: "Easily paginate a subscription that takes a limit parameter.",
   version: "0.0.1",
-  git: "https://github.com/bhargavi007/subscriptionWithPagination"
+  git: "https://github.com/bhargavi007/subscription-with-pagination"
 });
 
 Package.onUse(function (api, where) {

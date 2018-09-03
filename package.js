@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.3.0');
+  api.versionsFrom('METEOR@1.7.0.5');
   api.use('ecmascript');
   api.mainModule('paginated-subscription.js');
 });

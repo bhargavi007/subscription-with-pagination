@@ -6,9 +6,8 @@ Package.describe({
   git: "https://github.com/siliconangle/paginated-subscription"
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.7.0.5');
-  api.use('ecmascript');
-  api.mainModule('paginated-subscription.js');
+Package.onUse(function (api, where) {
+  api.versionsFrom("METEOR@0.9.0");
+  api.addFiles('paginated_subscription.js', 'client');
 });
 
